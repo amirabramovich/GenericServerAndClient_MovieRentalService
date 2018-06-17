@@ -5,10 +5,6 @@
  */
 package bgu.spl181.net.api.bidi;
 
-/**
- *
- * @author bennyl
- */
 public interface BidiMessagingProtocol<T>  {
 
     void start(int connectionId, Connections<T> connections);
