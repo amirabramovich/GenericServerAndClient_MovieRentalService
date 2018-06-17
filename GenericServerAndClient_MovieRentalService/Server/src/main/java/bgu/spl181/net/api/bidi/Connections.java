@@ -2,7 +2,6 @@ package bgu.spl181.net.api.bidi;
 /**
  * This interface should map a unique ID for each active client
    connected to the server. 
- * @author chen
  *
  * @param <T>
  */
