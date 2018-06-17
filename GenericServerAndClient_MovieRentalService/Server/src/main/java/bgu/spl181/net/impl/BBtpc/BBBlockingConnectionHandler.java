@@ -12,8 +12,6 @@ import bgu.spl181.net.srv.bidi.ConnectionHandler;
  * This class represents blocking connectionhandler to support singlethread threadperclient
  * and implements connectionhandler interface send method.
  * It holds boolean connected to indicate if client connected
- * @author chen
- *
  * @param <T> type of message
  */
 public class BBBlockingConnectionHandler<T> implements Runnable, ConnectionHandler<T>{
