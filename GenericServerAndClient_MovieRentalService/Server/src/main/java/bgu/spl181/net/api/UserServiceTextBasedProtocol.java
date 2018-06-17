@@ -13,7 +13,6 @@ import bgu.spl181.net.srv.bidi.User;
  * It holds the connections database indicating what users are connected to server,the users database with their names,and userstates database indicating which clients are loged in
  * It holds the current connectionId and boolean indicator if this connection is loggedin to sever or not.
  * In addition it holds the locks we use to sync the system
- * @author chen
  *
  */
 public class UserServiceTextBasedProtocol implements BidiMessagingProtocol<String> {
