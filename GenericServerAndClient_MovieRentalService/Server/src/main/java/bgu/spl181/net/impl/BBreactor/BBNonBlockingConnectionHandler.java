@@ -15,8 +15,6 @@ import bgu.spl181.net.srv.bidi.ConnectionHandler;
  * It implements the connectionhandler interface to support send(msg) function.
  * Connection handler holds bidiprotocol encdec socket and reactor class.
  * It holds ByteBuffer queue for memory efficiency  
- * @author chen
- *
  * @param <T> type of message
  */
 public class BBNonBlockingConnectionHandler<T> implements ConnectionHandler<T>{
@@ -138,9 +136,9 @@ public class BBNonBlockingConnectionHandler<T> implements ConnectionHandler<T>{
 	 */
 	public void send(T msg) {
 		if (msg != null) {
-            writeQueue.add(ByteBuffer.wrap(encdec.encode(msg)));
-            reactor.updateInterestedOps(chan, SelectionKey.OP_READ | SelectionKey.OP_WRITE);
-        }		
+           		writeQueue.add(ByteBuffer.wrap(encdec.encode(msg)));
+            		reactor.updateInterestedOps(chan, SelectionKey.OP_READ | SelectionKey.OP_WRITE);
+        	}		
 	}
 
 }
