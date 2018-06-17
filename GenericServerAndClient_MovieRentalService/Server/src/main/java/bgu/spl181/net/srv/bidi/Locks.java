@@ -7,8 +7,6 @@ import java.util.concurrent.locks.ReentrantReadWriteLock;
  * We hold 6 locks.Two for movies and users database we hold,2 for movies and users Json update files,
  * userstates database managing logedin clients  and Heapqueue managing movies id lock
  * We use fair policy
- * @author chen
- *
  */
 public class Locks {
 	private ReentrantReadWriteLock usersJsonLock=new ReentrantReadWriteLock(true);
