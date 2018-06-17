@@ -23,8 +23,6 @@ import bgu.spl181.net.srv.bidi.User;
  * and keeps all databases of system .userstates holds mapping to user name to its state of login,userdata holds mapping to user name to its user details
  * moviedata holds maping from movie name to its movie details movieheap holds max id of movie 
  * Locks to lock databases and Gson to parse Json files
- * @author chen
- *
  */
 public class ReactorMain{
 		
