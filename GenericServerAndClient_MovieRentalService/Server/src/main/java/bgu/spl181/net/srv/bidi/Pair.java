@@ -3,7 +3,6 @@ package bgu.spl181.net.srv.bidi;
  * This class represents Pair of id and name of movie
  * It is created to conviniently store data representing movie user holds
  * as spesified in userJson supplied movies is array of pairs of id and namez
- * @author chen
  *
  */
 public class Pair {
