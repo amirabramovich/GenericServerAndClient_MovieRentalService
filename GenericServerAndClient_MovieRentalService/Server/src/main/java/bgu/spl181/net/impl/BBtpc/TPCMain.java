@@ -25,7 +25,6 @@ import bgu.spl181.net.srv.bidi.User;
 /**
  * This class runs threadperclient server parsing Json files to databases
  * establishing sockets with clients
- * @author chen
  *
  */
 public class TPCMain{
