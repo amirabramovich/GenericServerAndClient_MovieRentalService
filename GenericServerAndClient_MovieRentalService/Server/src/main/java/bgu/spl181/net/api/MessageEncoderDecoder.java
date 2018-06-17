@@ -1,8 +1,6 @@
 package bgu.spl181.net.api;
 /**
  * interface describing encoderdecoder's function
- * @author chen
- *
  * @param <T>
  */
 public interface MessageEncoderDecoder<T> {
