@@ -7,8 +7,6 @@ import java.util.Arrays;
  * We decode each byte from the socket and keep the massage until we get "/n" and pop the string we get.
  * We keep int length as position of our buffer points to the first empty place in buffer,is initialized to 0 after each massage.
  * We initialize buffer to 1k and double its size each time it is full if needed.
- * @author chen
- *
  */
 public class MovieRentalEncoderDecoder implements MessageEncoderDecoder<String>{
 
