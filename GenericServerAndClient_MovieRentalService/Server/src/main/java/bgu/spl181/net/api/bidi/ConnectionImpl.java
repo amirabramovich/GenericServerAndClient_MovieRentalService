@@ -9,9 +9,6 @@ import bgu.spl181.net.srv.bidi.ConnectionHandler;
  * Holding database to manage the connections makes it flexible to communicate with all clients or group of them.
  * The represantation of connections is with concurrent hash map to support therad safe operations
  *  and it maps id of connection to its connectionhandler.
- * 
- * 
- * @author chen
  *
  * @param <T> type of messages 
  */
