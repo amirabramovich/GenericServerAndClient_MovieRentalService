@@ -4,8 +4,6 @@ import java.util.LinkedList;
 /**
  * This class represents User object as described in UsersJson
  * We parse each user to this object
- * @author chen
- *
  */
 public class User {
 	private String username;
