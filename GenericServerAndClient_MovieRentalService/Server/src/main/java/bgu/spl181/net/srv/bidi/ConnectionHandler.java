@@ -8,7 +8,6 @@ package bgu.spl181.net.srv.bidi;
 import java.io.Closeable;
 /**
  * Interface of connectionHandler
- * @author chen
  *
  * @param <T> type of message
  */
