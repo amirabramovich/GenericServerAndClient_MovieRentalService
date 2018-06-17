@@ -3,8 +3,6 @@ package bgu.spl181.net.srv.bidi;
 import java.util.LinkedList;
 /**
  * This class represents Movie object as provided in Json file
- * @author chen
- *
  */
 public class Movie {
 	
