@@ -21,7 +21,6 @@ import bgu.spl181.net.srv.bidi.Pair;
  * Login and signout are treated completley in the USTBP as it holds the users database,this commands are generic for all possible service protocols.Request and Register is treated in both protocols as "layers model"
  * Each function in this class treats a command and update the databases and Json files in system.
  * We use ReadWritelocks in order to sync the system to work correctly with updates and functionality . 
- * @author chen
  *
  */
 public class MovieRentalServiceProtocol extends UserServiceTextBasedProtocol implements BidiMessagingProtocol<String> {
